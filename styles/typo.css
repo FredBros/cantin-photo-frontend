@@ -1,0 +1,38 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+h1,h2,h3,h4,h5,h6,p, .f-size-1, .f-size-2, .f-size-3, .f-size-4, .f-size-6 .f-size-p {
+    font-weight: inherit;
+}
+
+/* h1, .f-size-1 {
+    font-size: clamp(4.7rem, 3.2981rem + 6.2308vw, 8.75rem);
+} */
+h1, .f-size-1 {
+font-size: clamp(3.75rem, 2.4008rem + 6.3492vw, 8.75rem);
+}
+h2, .f-size-2 {
+    font-size: clamp(3.75rem, 2.4519rem + 5.7692vw, 7.5rem);
+
+}
+h3, .f-size-3 {
+    font-size: clamp(1.87rem, 1.4788rem + 1.7385vw, 3rem);
+
+}
+h4, .f-size-4 {
+    font-size: clamp(1.56rem, 1.3212rem + 1.0615vw, 2.25rem);
+}
+h6, .f-size-6 {
+    font-size: clamp(1.25rem, 1.0354rem + 0.9538vw, 1.87rem);
+}
+p, .f-size-p {
+    font-size: clamp(1.25rem, 1.0354rem + 0.9538vw, 1.87rem);
+    font-weight: 400;
+}
+.f-size-small {
+    font-size: clamp(0.8rem, 0.5841rem + 1.0159vw, 1.6rem);
+    font-weight: 200;
+}
+

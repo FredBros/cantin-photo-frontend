@@ -49,13 +49,13 @@ const HomeSection = ({ tag, photosData, section, bodyColor }) => {
           >
             <Image
               className="image"
+              priority={true}
               src={imgUrl}
               width={`${imgRatio * 100}%`}
               height="100%"
               layout="responsive"
               objectFit="contain"
               alt={alt}
-              
             />
           </div>
         );

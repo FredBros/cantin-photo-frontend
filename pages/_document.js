@@ -4,7 +4,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="fr">
-        <Head>
+        <Head>          
           <link
             rel="preload stylesheet"
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700;800&display=swap"

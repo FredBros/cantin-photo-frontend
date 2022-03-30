@@ -9,7 +9,7 @@ const RoundButton = ({tag, link, content}) => {
     <>
       {/* on passe le tag pour la gallery dans le query du Link qu'on récupera
       avec useRouter */}
-      <Link href={{ pathname: "/gallery", query: {tag} }}>
+      <Link href={{ pathname: "/gallery", query: { tag } }} passHref>
         <button>
           <a>
             <p>{content}</p>

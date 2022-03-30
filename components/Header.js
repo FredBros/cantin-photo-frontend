@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <>
       <header className="header">
-        <Image src={logoPhoto} width="60px" height="60px" />
+        <Image src={logoPhoto} width="60px" height="60px" alt="" />
         <BurgerButton
           isNavbarOpen={isNavbarOpen}
           navColor={navColor}
@@ -43,14 +43,14 @@ const Header = () => {
               target="_blank"
               href="https://www.instagram.com/?hl=fr"
               className="f-size-3"
-              rel="noopener"
+              rel="noreferrer noopener"
             >
               Instagram
             </a>
             <a
               target="_blank"
               className="f-size-p"
-              rel="noopener"
+              rel="noreferrer noopener"
               href="tel:+33026598"
             >
               +33 02 65 98
@@ -59,7 +59,7 @@ const Header = () => {
               target="_blank"
               className="f-size-p"
               href="mailto:Charles@Charlescantin.com"
-              rel="noopener"
+              rel="noreferrer noopener"
             >
               Charles@Charlescantin.com
             </a>

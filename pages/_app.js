@@ -1,3 +1,5 @@
+import "../styles/reset.css";
+import "../styles/typo.css";
 import '../styles/globals.css'
 import Head from 'next/head'
 import Layout from '../components/Layout'

@@ -29,7 +29,7 @@ const RoundButton = ({tag, link, content}) => {
           color: ${color.mainColor};
           transition: transform 0.2s ease-in-out;
           cursor: pointer;
-          bottom: 40px;
+          bottom: 65px;
           left: 25px;
         }
 

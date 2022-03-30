@@ -19,6 +19,7 @@ const ServiceCard = ({ data }) => {
     >
       <div className="card-bkgd">
         <Image
+          priority={true}
           className="image"
           src={imgUrl}
           layout="fill"

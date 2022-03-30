@@ -9,7 +9,7 @@ export default function Home({photosData}) {
     <>
       <Hero />
       <HomeContent photosData={photosData} />
-      {/* <ContactModule /> */}
+      <ContactModule />
     </>
   );
 }

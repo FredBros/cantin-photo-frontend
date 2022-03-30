@@ -43,16 +43,23 @@ const Header = () => {
               target="_blank"
               href="https://www.instagram.com/?hl=fr"
               className="f-size-3"
+              rel="noopener"
             >
               Instagram
             </a>
-            <a target="_blank" className="f-size-p" href="tel:+33026598">
+            <a
+              target="_blank"
+              className="f-size-p"
+              rel="noopener"
+              href="tel:+33026598"
+            >
               +33 02 65 98
             </a>
             <a
               target="_blank"
               className="f-size-p"
               href="mailto:Charles@Charlescantin.com"
+              rel="noopener"
             >
               Charles@Charlescantin.com
             </a>

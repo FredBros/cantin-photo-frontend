@@ -7,13 +7,13 @@ import { getStrapiURL } from "../lib/api";
 
 
 const Gallery = ({ photosData }) => {
-  // console.log(photosData)
   const router = useRouter();
-  // console.log(router.query.tag)
+  
 
   const [tag, setTag] = useState("");
 
-  useEffect(() => {
+  // si l'utilisateur arrive sur cette page par le lien des RoundButton de la page Index, on récupere le query.tag de l'adresse, sinon, on met "wedding" par defaut.
+  useEffect(() => {    
     const tag = router.query.tag;
     tag ? setTag(tag) : setTag("wedding");
   }, []);
@@ -24,7 +24,6 @@ const Gallery = ({ photosData }) => {
 
   // On filtre toutes les photos pour garder que celles corerespondant au tag
 const photoDataFiltered= photosData?.filter((photo) => photo.attributes.tag == tag)
-// console.log(photoDataFiltered);
 
 
   return (

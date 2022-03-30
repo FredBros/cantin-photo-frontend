@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import Hero from '../components/Hero';
 import HomeContent from '../components/HomeContent';
 import { getStrapiURL } from '../lib/api';  

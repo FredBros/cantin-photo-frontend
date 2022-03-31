@@ -26,7 +26,7 @@ const HomeSection = ({ tag, photosData, section, bodyColor }) => {
  
   return (
     <section className="homeSection" key={uuidv4()}>
-      <Parallax translateY={[-100, 400]} >
+      <Parallax translateY={[-100, 400]}>
         <h1 className="section-title">{section}</h1>
       </Parallax>
 
@@ -67,12 +67,11 @@ const HomeSection = ({ tag, photosData, section, bodyColor }) => {
           position: relative;
           overflow: hidden;
           width: 100%;
-          padding: 500px 10px 130px 10px;
+          padding: 150px 10px 130px 10px;
         }
         .section-title {
           text-align: center;
-          margin-bottom: 700px;
-          
+          margin-bottom: 200px;
         }
 
         .img-container {
@@ -87,7 +86,21 @@ const HomeSection = ({ tag, photosData, section, bodyColor }) => {
             : "transform: translateX(12vw);"}
         }
 
+        @media screen and (min-width: 576px) {
+          .homeSection {
+            padding-top: 200px;
+          }
+          .section-title {
+            margin-bottom: 300px;
+          }
+        }
         @media screen and (min-width: 768px) {
+          .homeSection {
+            padding-top: 400px;
+          }
+          .section-title {
+            margin-bottom: 500px;
+          }
           .img-container {
             width: 70%;
             margin: 10px auto;
@@ -100,6 +113,12 @@ const HomeSection = ({ tag, photosData, section, bodyColor }) => {
           }
         }
         @media screen and (min-width: 1200px) {
+          .homeSection {
+            padding-top: 500px;
+          }
+          .section-title {
+            margin-bottom: 700px;
+          }
           .img-container {
             width: 50%;
             margin: 10px auto;

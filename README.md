@@ -34,14 +34,3 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
-
-## Lien Figma du mockup :
-https://www.figma.com/file/oIldvEc9qC2t1xQs0PZCgs/Photograph?node-id=0%3A1
-
-## Police de caractère
-Poppins, font-weight 800 pour la plupart des cas
-
-## Les couleurs :
-colorMenu: "#DD4A48"
-mainColor: "#FFF"
-colorText: "#282828"
